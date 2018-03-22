@@ -48,7 +48,7 @@ Run this command in the Cloud Shell.
 
 ```shell
 gcloud compute instances create dragnn-instance \
-    --image-family gci-stable \
+    --image-family container-vm \
     --image-project google-containers \
     --zone us-central1-b --boot-disk-size=100GB \
     --machine-type n1-standard-1
